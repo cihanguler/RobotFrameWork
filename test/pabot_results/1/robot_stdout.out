@@ -1,0 +1,25 @@
+==============================================================================
+testDemo6 :: To validate the Login form                                       
+==============================================================================
+Validate UnSuccesful Login                                              
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\AAKYURT\PycharmProjects\RobotFrameWork\test\testDemo6.robot:21
+    T:  Validate UnSuccesful Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\AAKYURT\PycharmProjects\RobotFrameWork\test\testDemo6.robot:7
+      open the generic browser with the url    Chrome
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\AAKYURT\PycharmProjects\RobotFrameWork\PO\Generic.robot:25
+      Create Webdriver    ${browser_name}    executable_path=../drivers/${browser_name}.exe
+      |  ${browser_name} = Chrome (str)
+      |  executable_path=../drivers/${browser_name}.exe = executable_path=../drivers/Chrome.exe (str)
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+SessionNotCreatedException: Message: Unable to find a matching set of capabilities
+------------------------------------------------------------------------------
+testDemo6 :: To validate the Login form                               | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\AAKYURT\PycharmProjects\RobotFrameWork\test\pabot_results\1\output.xml

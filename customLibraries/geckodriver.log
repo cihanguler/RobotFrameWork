@@ -1,0 +1,21 @@
+1644317215288	geckodriver	INFO	Listening on 127.0.0.1:61183
+1644317215803	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61184" "-no-remote" "-profile" "C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofilevBkzvM"
+1644317216200	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofilevBkzvM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61184/devtools/browser/f3479e97-4c28-440f-a2de-cedf103854ce
+1644317218375	Marionette	INFO	Listening on port 61188
+1644317218505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644317226740	Marionette	INFO	Stopped listening on port 61188
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1644318038047	geckodriver	INFO	Listening on 127.0.0.1:58171
+1644318038575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58172" "-no-remote" "-profile" "C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofileXZRieu"
+1644318038990	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofileXZRieu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58172/devtools/browser/7827777c-f134-466b-8f87-085aa46631f3
+1644318041790	Marionette	INFO	Listening on port 58177
+1644318042292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644318047265	Marionette	INFO	Stopped listening on port 58177
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
