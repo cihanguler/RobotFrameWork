@@ -2801,3 +2801,75 @@ DevTools listening on ws://localhost:64641/devtools/browser/4619e575-6d97-453c-a
 Invalid port. Exiting...
 Invalid port. Exiting...
 Invalid port. Exiting...
+1644328566456	geckodriver	INFO	Listening on 127.0.0.1:60879
+1644328566979	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60880" "-no-remote" "-profile" "C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofilelR4zCZ"
+1644328567405	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofilelR4zCZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60880/devtools/browser/0f8e207f-b5de-40a7-b9eb-4abd197b4161
+1644328569726	Marionette	INFO	Listening on port 60883
+1644328569759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644328612471	Marionette	INFO	Stopped listening on port 60883
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1644328638669	geckodriver	INFO	Listening on 127.0.0.1:56061
+1644328639193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56062" "-no-remote" "-profile" "C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofileEkwSEt"
+1644328639609	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofileEkwSEt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56062/devtools/browser/d7e24f5d-31eb-4a60-a7f7-cd8ed5d8d4c7
+1644328641745	Marionette	INFO	Listening on port 56065
+1644328641911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644328684460	Marionette	INFO	Stopped listening on port 56065
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1644328724667	geckodriver	INFO	Listening on 127.0.0.1:65487
+1644328725207	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65488" "-no-remote" "-profile" "C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofilecSl1HT"
+1644328725597	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofilecSl1HT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65488/devtools/browser/9017bf07-569c-4c23-abd2-f40df2070247
+1644328727475	Marionette	INFO	Listening on port 65491
+1644328727895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644328770409	Marionette	INFO	Stopped listening on port 65491
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Invalid port. Exiting...
+1644339394076	geckodriver	INFO	Listening on 127.0.0.1:62853
+1644339394593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62854" "-no-remote" "-profile" "C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofile7WLBK4"
+1644339395023	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofile7WLBK4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62854/devtools/browser/0a86771c-d67b-4e9d-978b-859cb8ec245c
+1644339397261	Marionette	INFO	Listening on port 62857
+1644339397314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644339400201	Marionette	INFO	Stopped listening on port 62857
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+1644409137171	geckodriver	INFO	Listening on 127.0.0.1:55190
+1644409137692	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55191" "-no-remote" "-profile" "C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofilePnz41S"
+1644409138077	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofilePnz41S\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55191/devtools/browser/1c0e5c6c-ef83-4334-befb-38061ea3e725
+1644409140017	Marionette	INFO	Listening on port 55194
+1644409140397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644409140415	Marionette	INFO	Stopped listening on port 55194
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1644409208707	geckodriver	INFO	Listening on 127.0.0.1:52814
+1644409209226	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52815" "-no-remote" "-profile" "C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofile7YFZvd"
+1644409209622	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\AAKYURT\\AppData\\Local\\Temp\\rust_mozprofile7YFZvd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52815/devtools/browser/f95fecac-8c56-42c2-952d-2cecc7ce4c5b
+1644409211696	Marionette	INFO	Listening on port 52818
+1644409211932	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644409222102	Marionette	INFO	Stopped listening on port 52818
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: OperationError: Could not move temporary file(C:\Users\AAKYURT\AppData\Local\Temp\rust_mozprofile7YFZvd\sessionCheckpoints.json.tmp) to destination(C:\Users\AAKYURT\AppData\Local\Temp\rust_mozprofile7YFZvd\sessionCheckpoints.json)
+Invalid port. Exiting...
+Invalid port. Exiting...

@@ -2,7 +2,6 @@
 Documentation  All the page objects and keywords of landing page
 Library     SeleniumLibrary
 Library     Collections
-Resource    Generic.robot
 
 
 

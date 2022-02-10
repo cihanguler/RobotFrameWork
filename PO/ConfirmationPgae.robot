@@ -13,9 +13,9 @@ ${county_location}              //a[text()='India']
 
 *** Keywords ***
 Enter the Country and select the terms
-    [arguments]     ${country_name}
+    [Arguments]     ${country_name}
     input text      country     ${country_name}
-    sleep   3s
+    sleep   1s
     Generic.wait until element is locadet in the page  //a[text()='${country_name}']
     click element   //a[text()='${country_name}']
     click element   css:.checkbox label

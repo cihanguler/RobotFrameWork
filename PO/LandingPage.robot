@@ -2,8 +2,6 @@
 Documentation  All the page objects and keywords of landing page
 Library     SeleniumLibrary
 Library     Collections
-Resource    Generic.robot
-
 
 *** Variables ***
 ${Error_Messege}                css:.alert-danger
@@ -11,7 +9,7 @@ ${Error_Messege}                css:.alert-danger
 
 *** Keywords ***
 Fill the login form
-    [arguments]         ${username}     ${password}
+    [Arguments]         ${username}     ${password}
     input text          id=username     ${username}
     input password      id=password     ${password}
     Click Button        id=signInBtn

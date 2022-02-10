@@ -1,9 +1,11 @@
 *** Settings ***
 Documentation   To validate the Login form
 Library     SeleniumLibrary
-Library     webdrivermanager
 Library         ../customLibraries/WebDrivers.py
-Test Teardown     Close Browser
+Library         ../customLibraries/Shop.py
+Test Setup    Set Screenshot Directory    Screenshot
+
+#Test Teardown     Close Browser
 
 
 *** Variables ***
@@ -17,12 +19,11 @@ Validate UnSuccesful Login
 #    wait until it chechs and display error message
 #    verify error messeage is correct
 
-#C:/Users/AAKYURT/PycharmProjects/RobotFrameWork/drivers/ddd.exe
 
 *** Keywords ***
 open the browser with the url
-    driver Manager      Chrome    https:google.com
-     #create webdriver    Chrome   executable_path=../drivers/chromedriver.exe
+   driver Manager      Edge    https://google.com
+#     driver Manager    Chrome   executable_path=../drivers/chrome.exe
 #    create webdriver    Firefox   executable_path=../drivers/firefox.exe
 #    go to   https://rahulshettyacademy.com/loginpagePractise/
 

@@ -30,7 +30,7 @@ open the browser with the url
     go to   https://rahulshettyacademy.com/loginpagePractise/
 
 Fill the login form
-     [arguments]         ${username}     ${password}
+    [Arguments]         ${username}     ${password}
     input text          id=username     ${username}
     input password      id=password     ${password}
     Click Button        id=signInBtn

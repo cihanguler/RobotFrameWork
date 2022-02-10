@@ -25,13 +25,13 @@ Select the form and navigate to Child window
 
 *** Keywords ***
 Fill the login form
-    [arguments]         ${username}     ${password}
+    [Arguments]         ${username}     ${password}
     input text          id=username     ${username}
     input password      id=password     ${password}
     Click Button        id=signInBtn
 
 wait until element is locadet in the page
-    [arguments]     ${WebElement}
+    [Arguments]     ${WebElement}
     wait until element is visible       ${WebElement}
 
 verify error messeage is correct
@@ -48,7 +48,7 @@ Verfiy Card titles in the shop page
     lists should be equal   ${expected_list}    ${actual_list}
 
 Select the Card
-    [arguments]     ${cardName}
+    [Arguments]     ${cardName}
     ${elements_list}=     Get Webelements     css:.card-title
     ${index}=   Set Variable    1
     FOR  ${list}  IN    @{elements_list}

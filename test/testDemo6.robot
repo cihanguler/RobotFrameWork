@@ -3,11 +3,11 @@ Documentation   To validate the Login form
 Library     SeleniumLibrary
 Library     Collections
 Library     BuiltIn
+#Library         ../customLibraries/Shop.py
+Library         ../customLibraries/SpyderXMainPageLocators.py
 
-Library         ../customLibraries/Shop.py
-Test Setup          open the generic browser with the url    Chrome
-#Test Setup          open the browser with the url
-Suite Setup
+Test Setup          open the generic browser with the url
+#Suite Setup     Set Screenshot Directory    Screenshot
 Suite Teardown
 Test Teardown       Close Browser Session
 Resource            ../PO/Generic.robot
@@ -38,6 +38,7 @@ Validate Cards display in the Shoping Page
 
 Select the form and navigate to Child window
     LandingPage.Fill the Login details and login form
+
 
 
 

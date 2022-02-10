@@ -2,7 +2,6 @@
 Documentation  All the page objects and keywords of landing page
 Library     SeleniumLibrary
 Library     Collections
-Resource    Generic.robot
 
 
 
@@ -25,7 +24,7 @@ Verfiy Card titles in the shop page
     lists should be equal   ${expected_list}    ${actual_list}
 
 Select the Card
-    [arguments]     ${cardName}
+    [Arguments]     ${cardName}
     ${elements_list}=     Get Webelements     css:.card-title
     ${index}=   Set Variable    1
     FOR  ${list}  IN    @{elements_list}
